@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>We Were Never Just Friends</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 20px;
+    }
+
+    .header {
+      background-color: rgba(255, 0, 102, 0.8);
+      padding: 20px 40px;
+      border-radius: 20px;
+      font-size: 2.5em;
+      font-weight: bold;
+      color: white;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: row;
+      background-color: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      margin-top: 40px;
+      padding: 30px;
+      max-width: 1000px;
+      width: 100%;
+      color: #ffffff;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      flex-wrap: wrap;
+    }
+
+    .book-cover {
+      flex: 1;
+      text-align: center;
+    }
+
+    .book-cover img {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .book-cover h3 {
+      margin-top: 15px;
+      font-size: 1.2em;
+      color: rgb(255, 255, 255);
+    }
+
+    .book-details {
+      flex: 2;
+      margin-left: 30px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .book-details h2 {
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
+
+    .book-details p {
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+    .download-btn {
+      margin-top: 20px;
+      align-self: flex-start;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-size: 1em;
+      font-weight: bold;
+      color: #000;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background-color: #ff3399;
+      color: white;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+      }
+
+      .header {
+        font-size: 1.8em;
+        padding: 15px 25px;
+      }
+
+      .content {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .book-details {
+        margin-left: 0;
+        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+      }
+
+      .download-btn {
+        align-self: center;
+      }
+
+      .book-details h2 {
+        font-size: 1.5em;
+      }
+
+      .book-cover img {
+        max-width: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">ABHIPSHA PUBLISHERS</div>
+
+  <div class="content">
+    <div class="book-cover">
+      <img src="COVER PAGE.png" alt="Book Cover">
+      <h3>WE WERE NEVER JUST FRIENDS</h3>
+    </div>
+    <div class="book-details">
+      <h2>We Were Never Just Friends</h2>
+      <p><strong>A Journey from Almost Strangers to Almost Everything</strong></p>
+      <p>They weren’t meant to fall in love. But they did—slowly, unexpectedly, and deeply.</p>
+      <p>Linda and Lucifer were two souls drifting through their own storms. A chance friendship turned into a lifeline. From late-night conversations and unexpected laughter to silent support during the darkest days—they shared everything… except a label.</p>
+      <p>But life doesn’t wait for feelings to settle. When love was tested by real-world struggles, heartbreak, and distance, their bond was forced to face the hardest question of all.</p>
+      <p><em>Can something that was never supposed to be... still survive everything?</em></p>
+
+      <a href="COMING SOON.pdf" class="download-btn">DOWNLOAD YOUR DIGITAL BOOK NOW</a>
+    </div>
+  </div>
+
+</body>
+</html>
